@@ -1,2 +1,2 @@
 # Bash
-Aiming to play with Linux Aliases.
+Learning by playing.
