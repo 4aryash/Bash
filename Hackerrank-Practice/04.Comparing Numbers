@@ -1,0 +1,30 @@
+Sample Input 1
+5  
+2  
+Sample Output 1
+X is greater than Y  
+
+Sample Input 2
+2
+2  
+Sample Output 2
+X is equal to Y   
+
+Sample Input 3
+2
+3  
+Sample Output 3
+X is less than Y  
+
+#code
+
+read x
+read y
+
+if (($x > $y))
+then echo X is greater than Y  
+elif (($x < $y))
+then echo X is less than Y
+elif [ "$x" -eq "$y" ]
+then echo X is equal to Y
+fi
