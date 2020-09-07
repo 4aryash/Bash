@@ -1,0 +1,26 @@
+#Given two integers, X and Y, find their sum, difference, product, and quotient.
+
+#Sample Input
+#5
+#2
+
+#Sample Output
+#7
+#3
+#10
+#2
+
+#code
+
+read a
+read b
+
+echo `expr $a + $b`
+
+echo $(($a - $b))
+
+mul=$((a*b))
+echo $mul
+
+div=$((a/b))
+echo $div
