@@ -6,3 +6,4 @@
 alias gh='history|grep'
 alias goodnight='poweroff'
 alias rev='bash /home/dirtyvibe/strrev.sh'
+alias ghidra='bash /home/dirtyvibe/Documents/Tools/ghidra_9.1.2_PUBLIC/ghidraRun'
